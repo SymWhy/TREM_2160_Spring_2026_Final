@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Fact Check Text",
+  "name": "Get Context",
   "version": "1.0",
-  "description": "Highlight and fact check claims on websites.",
+  "description": "Get context for the selected text.",
 
   "icons": {
     "16": "icon/icon-16.png",
@@ -14,7 +14,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "factchecktext@mozilla.org",
+      "id": "getcontext@mozilla.org",
       "data_collection_permissions": {
         "required": ["none"]
       }
