@@ -2,9 +2,9 @@
 // List of available fact-checking sources
 const searchengines = [
   { id: 'wikipedia', title: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=', logo: 'res/logos/wikipedia-32.png', enabled: true },
+  { id: 'britannica', title: 'Encyclopedia Britannica', url: 'https://www.britannica.com/search?query=', logo: 'res/logos/britannica-32.png', enabled: true },
   { id: 'snopes', title: 'Snopes', url: 'https://www.snopes.com/search/?q=', logo: 'res/logos/snopes-32.png', enabled: true },
-  { id: 'politifact', title: 'Politifact', url: 'https://www.politifact.com/search/?q=', logo: 'res/logos/politifact-32.png', enabled: true },
-  { id: 'factcheck', title: 'FactCheck.org', url: 'https://www.factcheck.org/search/#gsc.tab=0&gsc.q=', logo: 'res/logos/factcheck-32.png', enabled: true },
+  { id: 'politifact', title: 'Politifact', url: 'https://www.politifact.com/search/?q=', logo: 'res/logos/politifact-32.png', enabled: true }
 ]
 
 // Add new option to the context menu
